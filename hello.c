@@ -41,7 +41,6 @@ void printPersonPersonalizated(struct Person person) {
   );
 }
 
-
 void main() {
   createPerson("Arthur", 18, 91, &printPerson);
   createPerson("Arthur", 18, 91, &printPersonPersonalizated);
