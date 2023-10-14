@@ -1,6 +1,6 @@
 {
     "C_Cpp.default.compilerPath": "/home/arthurgustavo/Projects/Ccccc/hello",
-    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "string.h": "c"
     }

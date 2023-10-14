@@ -16,10 +16,10 @@ int main() {
   nota = 7.1;
 
   if(nota >= 7.0){
-    printf("NOTA: %f", nota);
+    printf("NOTA: %f\n", nota);
   }
 
-  char arthur[6] = "arthur";
+  char arthur[7] = "arthur";
   printf("%s\n", arthur);
 
   printf("Digite seu nome: ");
