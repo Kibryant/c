@@ -4,6 +4,8 @@
     "files.associations": {
         "string.h": "c",
         "stdlib.h": "c",
-        "typeinfo": "c"
+        "typeinfo": "c",
+        "stdio.h": "c",
+        "soma.h": "c"
     },
 }
