@@ -6,6 +6,7 @@
         "stdlib.h": "c",
         "typeinfo": "c",
         "stdio.h": "c",
-        "soma.h": "c"
+        "soma.h": "c",
+        "inttypes.h": "c"
     },
 }
