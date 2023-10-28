@@ -8,6 +8,7 @@ float wage_final(int work_hours, float minimum_wage)
     float hourly_rate_worked = minimum_wage / 2;
     float gross_salary = hourly_rate_worked * work_hours;
     float taxes = (gross_salary * 3) / 100;
+    
     return gross_salary - taxes;
 }
 
