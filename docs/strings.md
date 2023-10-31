@@ -36,4 +36,27 @@ In the C programming language, strings are represented as arrays of characters, 
     char name[50];
     printf("Enter your name: ");
     scanf("%s", name); // Reads a string from the user.
-    printf("Hello, %s!\n", name); // Displays the string
+    printf("Hello, %s!\n", name); // Displays the string.
+    ```
+
+5. **String Functions**:
+
+    C provides a set of standard string manipulation functions in the `<string.h>` library, such as `strcpy`, `strcat`, `strcmp`, and more. These functions allow efficient manipulation and comparison of strings.
+
+6. **String Termination**:
+
+    Proper null-termination is essential. When modifying strings, ensure that you don't overwrite the null character (`'\0'`), as it marks the end of the string.
+
+7. **Character Access**:
+
+    Individual characters within a string can be accessed using array indexing. For example:
+
+    ```c
+    char letter = greeting[0]; // Accesses the first character 'H'.
+    ```
+
+8. **Concatenation**:
+
+    Strings can be concatenated using the `strcat` function or by manually copying characters from one string to another.
+
+C-style strings are prevalent in C programming, but they require careful handling to prevent buffer overflows and memory-related issues. In modern C, libraries like `<string.h>` provide safer alternatives, such as `strncpy`, which allows you to specify a maximum number of characters to copy. Understanding and correctly manipulating strings is essential for effective C programming.
