@@ -30,7 +30,6 @@ int main() {
     printf("long double: %lu bytes\n", sizeof(longDoubleType));
     printf("char: %lu bytes\n", sizeof(charType));
     printf("_Bool: %lu bytes\n", sizeof(boolType));
-    printf("enum: %lu bytes\n", sizeof(enumType));
     printf("void: N/A (no size)\n");
 
     return 0;

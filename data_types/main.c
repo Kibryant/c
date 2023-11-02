@@ -24,11 +24,10 @@ int main() {
   char character = 'z';
   printf("%c", character);
 
-  int age;
   double numberSize;
 
   printf("int size = %zu", sizeof (age));
-  printf("\ndouble size = %zu", sizeof(numberSize));
+  printf("\ndouble size = %zu\n", sizeof(numberSize));
   
   return 0;
 }
