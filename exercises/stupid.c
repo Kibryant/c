@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <inttypes.h>
+#include <math.h>
 
 int main() {
     int sum, i;
@@ -9,6 +10,8 @@ int main() {
     // for(int i = 0; i <= 10; i++){
     //     sum += i;
     // }
+
+    int fiodsjfao = sqrt(24);
 
     i = 0;
     sum = 0;
@@ -26,4 +29,5 @@ int main() {
     
 
     printf("%d\n", sum);
+    printf("%d\n", fiodsjfao);
 }

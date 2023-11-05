@@ -2,9 +2,17 @@
 
 int main()
 {   
-    char a = 'A';
-    int b = 9;
-    int result = a + b;
-    printf("Result: %d", result);
-    return 0;
+    while (1)
+    {   
+        int number;
+        printf("Number: %d\n", number);
+        printf("Type a number: ");
+        scanf("%d", &number);
+        if (number == 0)
+        {
+            continue;
+        }
+
+    }
+    
 }
