@@ -14,7 +14,7 @@ void createPerson(
   char name[],
   uint8_t age,
   uint8_t height,
-  void(*function_pointer)/*o * server como "ponteiro"*/(struct Person)
+  void(*function_pointer)/*o * serve como "ponteiro"*/(struct Person)
 ) {
   struct Person person;
   strcpy(person.name, name);
