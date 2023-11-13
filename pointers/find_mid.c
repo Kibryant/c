@@ -17,6 +17,7 @@ int main()
     int *mid = find_mid_of_array(array, size_of_array);
 
     printf("%d\n", *mid);
+    printf("%p\n", mid);
 
     return 0;
 }
