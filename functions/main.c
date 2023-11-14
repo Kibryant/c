@@ -3,6 +3,9 @@
 #include <string.h>
 #include <inttypes.h>
 
+#define PI 3.1415
+#define circle_area(r) (PI * r * r)
+
 float bigger(float first_number, float second_number) {
     if (first_number > second_number) {
         return first_number;
